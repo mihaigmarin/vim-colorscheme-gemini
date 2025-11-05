@@ -1,10 +1,14 @@
-# Vim color scheme inspired by google gemini
+## Vim color scheme inspired by google gemini
 
-## Description
+### Description
 
 This color scheme tries to replicate the theme of the code snippets found in google gemini.
 
-## Installation
+### Screenshots
+![Vim gemini color scheme](/screenshots/vim-gemini.png?raw=true)
+![Gemini color scheme](/screenshots/gemini.png?raw=true)
+
+### Installation
 
 To install you can use Plug or your favorite plugin manager.
 For Plug add this line to your `.vimrc`:
