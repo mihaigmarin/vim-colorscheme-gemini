@@ -68,6 +68,7 @@ call s:hi('Type', s:black, s:black_t, s:purple, s:purple_t)
 call s:hi('Identifier', s:black, s:black_t, s:white, s:white_t)
 call s:hi('Function', s:black, s:black_t, s:yellow, s:yellow_t)
 call s:hi('String', s:black, s:black_t, s:green, s:green_t)
+call s:hi('SpecialChar', s:black, s:black_t, s:green, s:green_t)
 
 " Special
 call s:hi('Todo', s:black, s:black_t, s:grey, s:grey_t)
