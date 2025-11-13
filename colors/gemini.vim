@@ -23,12 +23,12 @@ let s:grey='#80868b'
 let s:grey_t=245
 let s:dgrey='#505B69'
 let s:dgrey_t=240
+let s:lblue='#8ab4f8'
+let s:lblue_t=111
 let s:blue='#264f78'
 let s:blue_t=24
 let s:orange='#fa903e'
 let s:orange_t=208
-let s:blue='#8ab4f8'
-let s:blue_t=111
 let s:yellow='#fdd663'
 let s:yellow_t=221
 let s:green='#81c995'
@@ -76,14 +76,15 @@ call s:hi('StatusLine', s:white, s:white_t, s:dgrey, s:dgrey_t, '', '')
 call s:hi('Cursor', s:dgrey , s:dgrey_t, s:white, s:white_t, '', '')
 call s:hi('MatchParen', s:black, s:black_t, s:white, s:white_t, '', '')
 call s:hi('WildMenu', s:brown, s:brown_t, s:white, s:white_t, '', '')
+call s:hi('Visual', s:blue, s:blue_t, 'NONE', 'NONE', '', '')
 
 " Syntax
 call s:hi('Comment', '', '', s:grey, s:grey_t, '', '')
 call s:hi('Constant', '', '', s:orange, s:orange_t, '', '')
 call s:hi('Statement', '', '', s:purple, s:purple_t, '', '')
-call s:hi('Preproc', '', '', s:blue, s:blue_t, '', '')
+call s:hi('Preproc', '', '', s:lblue, s:lblue_t, '', '')
 call s:hi('Type', '', '', s:purple, s:purple_t, '', '')
-call s:hi('Identifier', '', '', s:blue, s:blue_t, '', '')
+call s:hi('Identifier', '', '', s:lblue, s:lblue_t, '', '')
 call s:hi('Function', '', '', s:yellow, s:yellow_t, '', '')
 call s:hi('String', '', '', s:green, s:green_t, '', '')
 call s:hi('SpecialChar', '', '', s:green, s:green_t, '', '')
