@@ -1,9 +1,9 @@
-" Copyright (C) 2025 Mihai Gabriel Marin
+" Copyright (C) 2025 Gabriel Marin
 " Vim color scheme inspired by google gemini code snippets
 "
 " Name: Gemini
-" Author: Mihai Gabriel Marin
-" Github: https://github.com/mgabrielmarin/vim-colorscheme-gemini
+" Author: Gabriel Marin
+" Github: https://github.com/gabmarin/vim-colorscheme-gemini
 
 " Clear colors
 set background=dark

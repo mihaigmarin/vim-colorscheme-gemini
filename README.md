@@ -13,7 +13,7 @@ This color scheme tries to replicate the theme of the code snippets found in goo
 To install you can use Plug or your favorite plugin manager.
 For Plug add this line to your `.vimrc`:
 
-`Plug 'mgabrielmarin/vim-colorscheme-gemini'`
+`Plug 'mihaigmarin/vim-colorscheme-gemini'`
 
 If you want to set it as the default theme:
 
